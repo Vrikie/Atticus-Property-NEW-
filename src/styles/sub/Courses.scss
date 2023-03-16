@@ -1,0 +1,35 @@
+/* Courses */
+
+.Courses {
+  background-color: $backgrnd;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.CourseSection {
+  min-width: 80%;
+  color: #fff;
+}
+
+.CourseList {
+  margin: 2rem;
+  padding: 1rem;
+  border: hidden;
+  border-radius: 20px;
+  background: rgba($regclr, 0.5);
+}
+
+.panel-default {
+  width: 100%;
+  
+  @include media("<=cozy"){
+    display: none;
+  }
+}
+
+.dotted {
+  list-style: disc;
+}

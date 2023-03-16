@@ -1,0 +1,71 @@
+/* Contact */
+
+.Contact {
+  background-color: $backgrnd;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: $default-fonts;
+}
+
+.Form {
+  background-color: $menu-bg;
+  border: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+
+  .FormInputs {
+    max-width: 100%;
+  }
+}
+
+.Form.hide {
+  max-width: 120px;
+  flex-direction: column;
+
+  .FormInputs {
+    display: none;
+  }
+}
+
+.Mail-Button {
+  padding: .5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  p {
+    padding: .25rem;
+  }
+}
+
+.Mail-Exit {
+  background-color: red;
+  height: 2.25rem;
+  width: 2.25rem;
+  margin: 1rem;
+  border: hidden;
+  border-radius: 50%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  p {
+    display: none;
+  }
+}
+
+.fa-envelope {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}

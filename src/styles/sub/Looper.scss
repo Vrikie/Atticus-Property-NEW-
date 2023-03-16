@@ -1,0 +1,9 @@
+/* Looper */
+
+.Display {
+  width: 100%;
+  height:  calc(100vh - #{$navheight});
+  max-height: 1100px;
+  position: relative;
+  overflow: hidden;
+}
